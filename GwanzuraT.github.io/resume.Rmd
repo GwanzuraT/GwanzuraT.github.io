@@ -1,0 +1,139 @@
+---
+name: Tendai NR 
+surname: Gwanzura
+position: "PhD Candidate"
+address: "Florida International University"
+email: "tgwan001@fiu.edu"
+github: GwanzuraT
+linkedin: "/tendai-gwanzura-50380886/"
+orcid: 0000-0002-2110-3530
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 414141
+docname: CV
+output:
+  vitae::awesomecv:
+    page_total: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(tibble)
+library(tidyverse)
+library(here)
+library(readr)
+library(scholar)
+```
+
+Highly motivated and accomplished data analyst and  early career researcher with experience in academic and government settings seeking to pivot into independent research leveraging experience in government and academic institutions.  
+
+# Education
+
+```{r education}
+
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+    "PhD in Public Health Epidemiology", "2021-", "Florida International University", "Miami, United States",
+  "Masters in Public Health", "2020", "Claremont Graduate University", "Carlifornia, United States",
+  "Bachelor of Medical and Laboratory Science Honors", "2014", "University of Zimbabwe", "Harare, Zimbabwe"
+) %>%
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Professional Experience
+
+```{r work-experience}
+
+work_experience <- tribble(
+  ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
+  "Graduate Assistant", "Florida International University", "August", 2021, "August", 2025, "Florida International University", 
+  "Collaborate with Epidemiology faculty conducting research and writing papers for peer reviewed journals.
+  \\begin{itemize}
+        \\item Create reports related to research being conducted and report to the Supervisor on progress.
+        \\item Support students throughout their programs marking and assiting in creating lesson plans.
+        \\item Collect, clean, enter and analyze data into various software application systems.
+        \\item Manage data using biostatistical software such as SAS, creating weekly data reports.
+    \\end{itemize}",
+  
+  "Data Science Fellow: Women", "Correlation One", "June", 2022, "August", 2022, "DS4A", 
+  "Selected to participate in a 7-week data science Fellowship (2% acceptance rate) with learning facilitated through real-world data science business cases. 
+  \\begin{itemize}
+        \\item Led a group of six women to create a  model that predicted variables related to high pesticide levels in individuals 2009-2020 in the US using NHANES data, over the course of the program.
+        \\item Used various regression and predictive models to complete the project utilizing python and R software.
+  \\end{itemize}",
+  
+  "Data Science Fellow: Empowerment ", "Correlation One", "October", 2021, "December", 2022, "DS4A", 
+  "Selected to participate in a 14-week data science Fellowship with a 2% acceptance rate which learning facilitated through real-world data science business cases. 
+  \\begin{itemize}
+        \\item Led a group of three to create a machine learning model that accurately(98%) detects brain tumors through MRI image classification, over the course of the program.
+        \\item Created machine learning models to answer various business questions.
+        \\item Recruited students from underrepresented groups  into the fellowship program as a DS4A ambassador.
+  \\end{itemize}",
+  
+   "Health Program Analyst", "Los Angeles County Department of Public Health", "November", 2020, "July", 2021, "California", 
+  "Collaborated with Outbreak Investigators (Public Health Nurse or Public Health Investigator) with data and epidemiology needs related to investigation of a site outbreak.
+  \\begin{itemize}
+        \\item Led communication with outbreak sites to conduct line list follow-up of cases and contacts, including daily monitoring.
+        \\item Generated data reports related to the outbreak, including, but not limited to, epidemiological curve charts and dashboards.
+        \\item Managed data collection and entry in various software application systems.
+        \\item Conducted data analysis using biostatistical software such as SAS, creating weekly data reports.
+  \\end{itemize}",
+  
+  "Data Analyst intern", "Community Translational Research Institute", "February", 2020, "June", 2020, "Claremont Graduate University", 
+  "Monitored and developed data collection processes for the Diabetes Prevention Program. 
+  \\begin{itemize}
+        \\item Responsible for data cleaning of the electronic tracking system providing weekly reports. Removed 100% duplicate entries and 70% participant missing data filled. 
+        \\item Identified and analyzed hotspots and activity spaces in Pomona Valley related to high diabetes incidence using Arc GIS.  
+        \\item Performed statistical analyses using SAS and SPSS, managing large datasets, using SAS to analyze participant demographics and program outcomes. 
+        \\item Coordinated with research staff in writing research papers related to the Stop Diabetes in its Tracks program outcomes. 
+  \\end{itemize}",
+  
+  "Embryologist intern", "Bulawayo Assisted Reproductive Technology Centre", "January", 2017, "July", 2018, "Bulawayo", 
+  "Performed semen analysis including sperm washing and freezing. Aided in intra uterine inseminations. 
+  \\begin{itemize}
+        \\item Led the quality control team of the clinic and participated in invitro fertilization procedures that entailed ova extraction and culture.
+  \\end{itemize}",
+  
+  "Medical Laboratory Scientist", "CIMAS Medical Labs", "December", 2014, "April", 2018, "Bulawayo Harare", 
+  "Performed a full range of chemical, microbiologic, immunologic, and hematological laboratory procedures.  
+  \\begin{itemize}
+        \\item Operated and maintained laboratory equipment also troubleshoot/resolved instrument problems. 
+        \\item Led monthly and annual internal audits for accreditation.   
+  \\end{itemize}"
+)
+
+```
+
+
+```{r work}
+work_experience %>%
+  detailed_entries(
+    with = title,
+    what = unit,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} - {endMonth} {endYear}",.na = ""),
+    where = where, .protect = F
+  )
+```
+
+# Computer Skills
+
+ 
+1. GIS Products  {ArcGIS Pro, Online, Desktop, Enterprise, Server, and App Development using Web App Builder and other software, Insights, Spatial Analysis,QGIS,KNIME} 
+
+2. Advanced Statistical Analyses  {SAS,STATA, R, SPSS, SQL, MPlus, Python, SQL, and Tableau}  
+
+3. Reproducible Report  {Quarto, Markdown/Rmarkdown, Jupyter Notebook} 
+
+4. DevOps  {Git, GitHub}      
+
+5. Microsoft  {Excel, Word, Power Point and more}  
+
+
+# Academic Publications
+
+1. Ward MK, Gwanzura T, Rojas RR, Trepka MJ, Bursac Z, Wagner EF. Nonfatal opioid-related overdoses treated by emergency medical services in Florida, before and during the COVID-19 pandemic. Preventive Medicine Reports. 2023;31:102102. doi:10.1016/j.pmedr.2022.102102
+2.Chipidza W, Krewson C, Gatto N, Akbaripourdibazar E, Gwanzura T. Ideological variation in preferred content and source credibility on Reddit during the COVID-19 pandemic. Big Data & Society. 2022;9(1):20539517221076490. doi:10.1177/20539517221076486.
+3. Mshigeni SK, Rittenhouse A, Gwanzura T, Arroyo R, Vaughn C. Understanding Demographics Characteristics of E-Cigarette Users in California and the Need for Tailored Interventions. American Journal of Health Education. 2021;52(4):185-193. doi:10.1080/19325037.2021.1930610
+4. Chipidza W, Akbaripourdibazar E, Gwanzura T, Gatto NM. Topic Analysis of Traditional and Social Media News Coverage of the Early COVID-19 Pandemic and Implications for Public Health Communication. Disaster Medicine and Public Health Preparedness. Published online March 3, 2021:1-8. doi:10.1017/dmp.2021.65.
+5. Mtetwa S, Gwanzura TNR. Interrogating Child Rights Teaching in Bindura Schools – Zimbabwe. International Journal of Educational Sciences. 2017;18(1-3):200-213. doi:10.1080/09751122.2017.1347233.

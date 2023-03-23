@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 3b123a6c-62c6-4c85-8144-784ec10822ac
+      url: 'https://quartopub.com/sites/tendai/home'
