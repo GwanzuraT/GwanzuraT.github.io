@@ -1,0 +1,18 @@
+- source: Fishersexactest.qmd
+  netlify:
+    - id: c2fe92f5-e094-4bb9-af90-40661cc37c63
+      url: 'https://unique-dodol-af1eaa.netlify.app'
+  quarto-pub:
+    - id: bd210284-4d63-4a50-814f-0f1d7dac7fc7
+      url: 'https://quartopub.com/sites/tendaig/fishers-exact-test'
+- source: Fishersexactest.qmd
+  netlify:
+    - id: dbb177bf-445c-4102-b500-9567106a1c9e
+      url: 'https://melodious-parfait-7d409f.netlify.app'
+- source: project
+  netlify:
+    - id: a376a4f0-ba7d-4e4a-9899-fad40cc63bde
+      url: 'https://visionary-gelato-459539.netlify.app'
+  quarto-pub:
+    - id: 46bb2e9f-d178-4007-9a7d-8b973521079f
+      url: 'https://quartopub.com/sites/tendaig/two-sample-t-test'

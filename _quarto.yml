@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: html
+
+website:
+  title: "Two sample t test"
+  navbar:
+    left:
+      - href: Two_sample_t.qmd
+        text: Student's t test
+
+
+format:
+  html:
+    theme: zephyr
+    css: styles.css
+    toc: true
+
+
+
