@@ -1,0 +1,135 @@
+---
+title: "Publications"
+page-layout: article
+---
+
+```{=html}
+<style>
+  .pub-links { margin-top: 0.5rem; }
+  .pub-link {
+    display: inline-block;
+    background: #1A3A6A;
+    color: white;
+    padding: 0.2rem 0.7rem;
+    border-radius: 4px;
+    font-size: 0.78rem;
+    text-decoration: none;
+    margin-right: 0.4rem;
+    margin-top: 0.3rem;
+    font-weight: 500;
+  }
+  .pub-link:hover { background: #2C5F8A; color: white; text-decoration: none; }
+  .pub-link.review { background: #C55A11; }
+  .pub-link.resubmit { background: #375623; }
+  .pub-section { margin-bottom: 2.5rem; }
+  .pub-section h2 {
+    color: #1A3A6A;
+    border-bottom: 3px solid #1A3A6A;
+    padding-bottom: 0.5rem;
+    font-size: 1.15rem;
+  }
+  .pub-entry {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-left: 4px solid #1A3A6A;
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
+    margin-bottom: 1rem;
+  }
+  .pub-entry.under-review { border-left-color: #C55A11; }
+  .pub-entry.resubmit { border-left-color: #375623; }
+  .pub-title { font-weight: 600; color: #1A1A1A; margin-bottom: 0.3rem; }
+  .pub-authors { font-size: 0.9rem; color: #555; margin-bottom: 0.2rem; }
+  .pub-journal { font-size: 0.88rem; color: #1A3A6A; font-style: italic; }
+  .profile-links {
+    background: #1A3A6A;
+    color: white;
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+  }
+  .profile-link {
+    background: white;
+    color: #1A3A6A;
+    padding: 0.4rem 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.88rem;
+    font-weight: 600;
+  }
+  .profile-link:hover { background: #f0f4ff; color: #1A3A6A; text-decoration: none; }
+</style>
+
+<div class="profile-links">
+  <span style="font-weight:600; font-size:0.95rem;">Full publication records:</span>
+  <a class="profile-link" href="https://orcid.org/0000-0002-2110-3530" target="_blank">ORCID</a>
+  <a class="profile-link" href="https://scholar.google.com/scholar?q=tendai+gwanzura" target="_blank">Google Scholar</a>
+  <a class="profile-link" href="https://www.researchgate.net/profile/Tendai-Gwanzura-2" target="_blank">ResearchGate</a>
+</div>
+
+<div class="pub-section">
+<h2>Manuscripts Under Review / Revise & Resubmit</h2>
+
+<div class="pub-entry resubmit">
+  <div class="pub-title">The Effect of Vaccine Availability on Disparities in COVID-19 Mortality Among People with HIV in Florida</div>
+  <div class="pub-authors">Gwanzura TNR, et al.</div>
+  <div class="pub-journal">PLoS ONE — Revise & Resubmit (2026)</div>
+  <div class="pub-links">
+    <span class="pub-link resubmit">Revise & Resubmit</span>
+  </div>
+</div>
+
+<div class="pub-entry under-review">
+  <div class="pub-title">Hotspot Analysis of HIV and COVID-19 Co-Occurrence: Spatial and Temporal Clustering in Florida</div>
+  <div class="pub-authors">Gwanzura TNR, et al.</div>
+  <div class="pub-journal">Health and Place — Under Review (2026)</div>
+  <div class="pub-links">
+    <span class="pub-link review">Under Review</span>
+  </div>
+</div>
+</div>
+
+<div class="pub-section">
+<h2>Peer-Reviewed Publications</h2>
+
+<div class="pub-entry">
+  <div class="pub-title">Daily Factors Associated with ART Adherence Among Young Latino Sexual Minority Men with HIV</div>
+  <div class="pub-authors">Sheehan DM, Gwanzura TNR, et al.</div>
+  <div class="pub-journal">AIDS and Behavior. 29:3054–3069 (2025)</div>
+  <div class="pub-links">
+    <a class="pub-link" href="https://doi.org/10.1007/s10461-025-04651-3" target="_blank">DOI</a>
+  </div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-title">Using Causal Bayesian Networks to Assess Patient-Provider Relationship Effects on HIV Viral Suppression</div>
+  <div class="pub-authors">Trepka MJ, Gwanzura TNR, et al.</div>
+  <div class="pub-journal">AIDS and Behavior. 28(6):2113–2130 (2024)</div>
+  <div class="pub-links">
+    <a class="pub-link" href="https://doi.org/10.1007/s10461-023-04261-5" target="_blank">DOI</a>
+  </div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-title">Nonfatal Opioid-Related Overdoses Before and During COVID-19 in Florida</div>
+  <div class="pub-authors">Ward MK, Gwanzura TNR, et al.</div>
+  <div class="pub-journal">Preventive Medicine Reports. 31:102102 (2023)</div>
+  <div class="pub-links">
+    <a class="pub-link" href="https://doi.org/10.1016/j.pmedr.2022.102102" target="_blank">DOI</a>
+  </div>
+</div>
+
+<div class="pub-entry">
+  <div class="pub-title">Additional publications available on ORCID and Google Scholar</div>
+  <div class="pub-authors">Full list of 13 peer-reviewed publications</div>
+  <div class="pub-journal">ORCID: 0000-0002-2110-3530</div>
+  <div class="pub-links">
+    <a class="pub-link" href="https://orcid.org/0000-0002-2110-3530" target="_blank">View All on ORCID</a>
+  </div>
+</div>
+</div>
+```

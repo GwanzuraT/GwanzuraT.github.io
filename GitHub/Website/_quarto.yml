@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Tendai N.R. Gwanzura"
+  favicon: favicon.ico
+  navbar:
+    background: "#1A3A6A"
+    foreground: white
+    search: true
+    left:
+      - text: "Home"
+        file: index.qmd
+      - text: "Research"
+        file: projects.qmd
+      - text: "Publications"
+        file: publications.qmd
+      - text: "Teaching"
+        file: teaching.qmd
+      - text: "CV"
+        href: https://tendaig.quarto.pub/resume.pdf
+    right:
+      - icon: envelope
+        href: mailto:tngwanzura@gmail.com
+      - icon: linkedin
+        href: https://www.linkedin.com/in/tendai-gwanzura-50380886/
+      - icon: github
+        href: https://github.com/GwanzuraT
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false

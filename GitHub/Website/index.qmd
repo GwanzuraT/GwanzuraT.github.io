@@ -1,0 +1,32 @@
+---
+title: "Tendai NR Gwanzura"
+image: Gwanzura_Tendai_1.png
+resources: resume.pdf
+about:
+  template: jolla
+  image-shape: round
+  image-width: 15em
+  links:
+    - text: Email
+      icon: envelope
+      href: mailto:tgwan001@fiu.edu
+    - text: Linkedin
+      icon: linkedin
+      href: https://www.linkedin.com/in/tendai-gwanzura-50380886/
+    - text: GitHub
+      icon: github
+      href: https://github.com/GwanzuraT
+    - text: Resume
+      icon: file-text
+      href: resume.pdf
+---
+
+
+I am a doctoral candidate in the Department of Epidemiology at the Robert Stempel College of Public Health and Social Work. I aim to contribute to the field of health disparities research and infectious disease epidemiology using various data science tools. My dissertation project aims to identify factors that contribute to negative health outcomes in people with HIV and other vulnerable populations.
+
+I have 8 years of laboratory and research experience in infectious and chronic diseases having trained as a Medical Laboratory Scientist. I have also worked as a Health Program Analyst/ Epidemiologist. Through instructional learning and self teaching I have acquired knowledge in quantitative and qualitative methodology that I aim to use in conducting my research.
+
+My skills encompass the use of **R**, **SAS**, **GIS** and **Python** to clean, merge and analyze data. I have been involved in projects that utilize *tensorflow*, *scikit learn*  and *pandas* in **Python**. I have also used *dplyr*, *ggplot2*, *purr*, *stringr*, *table1*, *gtsummary*, *skimr*, and *stats* in **R**. I am passionate about sharing my knowledge and skills with others. 
+
+
+

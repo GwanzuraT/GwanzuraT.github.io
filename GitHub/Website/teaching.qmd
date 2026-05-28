@@ -1,0 +1,168 @@
+---
+title: "Teaching & Mentorship"
+page-layout: article
+---
+
+```{=html}
+<style>
+  .teaching-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-left: 5px solid #1A3A6A;
+    border-radius: 8px;
+    padding: 1.4rem 1.6rem;
+    margin-bottom: 1.25rem;
+  }
+  .teaching-card h3 {
+    color: #1A3A6A;
+    font-size: 1.02rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+  }
+  .teaching-org {
+    font-size: 0.88rem;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 0.6rem;
+  }
+  .teaching-dates {
+    font-size: 0.82rem;
+    color: #1A3A6A;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+  }
+  .section-heading {
+    color: #1A3A6A;
+    border-bottom: 3px solid #1A3A6A;
+    padding-bottom: 0.5rem;
+    font-size: 1.15rem;
+    margin-top: 2rem;
+    margin-bottom: 1.25rem;
+  }
+  .topic-tag {
+    display: inline-block;
+    background: #e8edf5;
+    color: #1A3A6A;
+    padding: 0.2rem 0.65rem;
+    border-radius: 10px;
+    font-size: 0.76rem;
+    margin-right: 0.3rem;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+  }
+  .leadership-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .leadership-icon {
+    font-size: 1.8rem;
+    min-width: 2.5rem;
+    text-align: center;
+  }
+  .leadership-title { font-weight: 700; color: #1A3A6A; font-size: 0.95rem; }
+  .leadership-org { font-size: 0.85rem; color: #555; }
+  .leadership-dates { font-size: 0.82rem; color: #888; margin-top: 0.2rem; }
+</style>
+
+<h2 class="section-heading">Formal Teaching Appointments</h2>
+
+<div class="teaching-card">
+  <h3>National Teaching Fellow in Data Science</h3>
+  <div class="teaching-org">RCMI National Coordinating Center, Morehouse School of Medicine</div>
+  <div class="teaching-dates">November 2024 – Present</div>
+  <p>Designed and delivered graduate-level data science and statistical programming instruction in R through the RCMI National Coordinating Center, serving MPH, PhD, and early, mid, and late-career researchers across multiple minority-serving institutions including Morehouse School of Medicine and Howard University. Curriculum covered reproducible research practices, regression modeling, survival analysis, and data visualization using Quarto and R.</p>
+  <span class="topic-tag">R Programming</span>
+  <span class="topic-tag">Reproducible Research</span>
+  <span class="topic-tag">Regression Modeling</span>
+  <span class="topic-tag">Survival Analysis</span>
+  <span class="topic-tag">Data Visualization</span>
+  <span class="topic-tag">Quarto</span>
+</div>
+
+<div class="teaching-card">
+  <h3>Graduate Assistant — Epidemiology Methods Instructor</h3>
+  <div class="teaching-org">Florida International University, Department of Epidemiology</div>
+  <div class="teaching-dates">May 2025 – Present</div>
+  <p>Teaching graduate-level epidemiological methods to MPH and PhD students, with measurable improvement in student quantitative output quality and multiple students applying advanced methods independently to their research. Provide individual statistical consultation and mentorship on study design, analytical methods, and scientific writing.</p>
+  <span class="topic-tag">Epidemiological Methods</span>
+  <span class="topic-tag">Study Design</span>
+  <span class="topic-tag">Statistical Consulting</span>
+  <span class="topic-tag">Scientific Writing</span>
+</div>
+
+<h2 class="section-heading">Open-Source Educational Materials</h2>
+
+<div class="teaching-card">
+  <h3>Fisher's Exact Test Tutorial</h3>
+  <div class="teaching-org">Published via Quarto Pub</div>
+  <p>Interactive tutorial with annotated R code covering Fisher's Exact Test for small-sample contingency table analysis, including worked examples and interpretation guidance for public health applications.</p>
+  <span class="topic-tag">R</span><span class="topic-tag">Hypothesis Testing</span><span class="topic-tag">Quarto</span>
+  <br><a href="https://tendaig.quarto.pub/fishers-exact-test-summary/Fishersexactest.html" target="_blank" style="color:#1A3A6A; font-size:0.88rem; font-weight:600;">View Tutorial →</a>
+</div>
+
+<div class="teaching-card">
+  <h3>Two-Sample T-Test Tutorial</h3>
+  <div class="teaching-org">Published via Quarto Pub</div>
+  <p>Tutorial covering two-sample t-test methodology, assumptions, implementation in R, and interpretation for public health and epidemiology applications.</p>
+  <span class="topic-tag">R</span><span class="topic-tag">Hypothesis Testing</span><span class="topic-tag">Quarto</span>
+  <br><a href="https://tendaig.quarto.pub/two-sample-t-test/Two_sample_t.html" target="_blank" style="color:#1A3A6A; font-size:0.88rem; font-weight:600;">View Tutorial →</a>
+</div>
+
+<div class="teaching-card">
+  <h3>Random Intercept Model Tutorial</h3>
+  <div class="teaching-org">How to Health Science in R — Collaborative Blog</div>
+  <p>Contributed to a collaborative open-source tutorial series covering multilevel modeling with random intercept models in R for health science researchers.</p>
+  <span class="topic-tag">R</span><span class="topic-tag">Multilevel Modeling</span><span class="topic-tag">Mixed Effects</span>
+  <br><a href="https://anbrav0.github.io/R-health-blog/RandomInterceptModel.html" target="_blank" style="color:#1A3A6A; font-size:0.88rem; font-weight:600;">View Tutorial →</a>
+</div>
+
+<h2 class="section-heading">Mentorship</h2>
+
+<div class="teaching-card">
+  <p>Mentored four junior researchers on statistical methods, R and SAS programming, study design, and scientific writing, with each mentee successfully completing independent research outputs including conference abstracts, thesis chapters, and peer-reviewed publication submissions. Two mentees completed their first peer-reviewed publication submissions under direct guidance.</p>
+</div>
+
+<h2 class="section-heading">Professional Leadership & Service</h2>
+
+<div class="leadership-card">
+  <div class="leadership-icon">🏛</div>
+  <div>
+    <div class="leadership-title">Governing Councilor</div>
+    <div class="leadership-org">American Public Health Association (APHA)</div>
+    <div class="leadership-dates">2025 – Present</div>
+  </div>
+</div>
+
+<div class="leadership-card">
+  <div class="leadership-icon">🔬</div>
+  <div>
+    <div class="leadership-title">President, Students and Post-docs Committee (SPC)</div>
+    <div class="leadership-org">Society for Epidemiologic Research (SER)</div>
+    <div class="leadership-dates">2026 – Present &nbsp;|&nbsp; President-Elect 2025–2026</div>
+  </div>
+</div>
+
+<div class="leadership-card">
+  <div class="leadership-icon">🌍</div>
+  <div>
+    <div class="leadership-title">National Chapter Chair</div>
+    <div class="leadership-org">Sisters in Public Health — 300+ members</div>
+    <div class="leadership-dates">2024 – 2026</div>
+  </div>
+</div>
+
+<div class="leadership-card">
+  <div class="leadership-icon">📋</div>
+  <div>
+    <div class="leadership-title">Abstract Reviewer</div>
+    <div class="leadership-org">Society for Epidemiologic Research Annual Meeting</div>
+    <div class="leadership-dates">20+ abstracts reviewed</div>
+  </div>
+</div>
+```

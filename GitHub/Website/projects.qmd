@@ -1,0 +1,161 @@
+---
+title: "Research & Projects"
+page-layout: article
+---
+
+```{=html}
+<style>
+  .project-card {
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 1.5rem 1.75rem;
+    margin-bottom: 1.5rem;
+  }
+  .project-card h3 {
+    color: #1A3A6A;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  .project-tag {
+    display: inline-block;
+    background: #1A3A6A;
+    color: white;
+    padding: 0.2rem 0.65rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    margin-right: 0.35rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+  }
+  .project-tag.methods { background: #2C5F8A; }
+  .project-tag.data { background: #375623; }
+  .project-tag.status-active { background: #C55A11; }
+  .project-link {
+    display: inline-block;
+    background: #1A3A6A;
+    color: white;
+    padding: 0.3rem 0.9rem;
+    border-radius: 5px;
+    font-size: 0.82rem;
+    text-decoration: none;
+    margin-right: 0.4rem;
+    margin-top: 0.75rem;
+    font-weight: 500;
+  }
+  .project-link:hover { background: #2C5F8A; color: white; text-decoration: none; }
+  .project-link.outline {
+    background: transparent;
+    color: #1A3A6A;
+    border: 1.5px solid #1A3A6A;
+  }
+  .project-link.outline:hover { background: #f0f4ff; color: #1A3A6A; }
+  .section-heading {
+    color: #1A3A6A;
+    border-bottom: 3px solid #1A3A6A;
+    padding-bottom: 0.5rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-bottom: 1.25rem;
+  }
+</style>
+
+<h2 class="section-heading">Dissertation Research</h2>
+
+<div class="project-card">
+  <h3>Aim 1 — COVID-19 Mortality Disparities and Vaccine Availability Among People with HIV in Florida</h3>
+  <span class="project-tag">Causal Inference</span>
+  <span class="project-tag methods">Difference-in-Differences</span>
+  <span class="project-tag methods">IPW</span>
+  <span class="project-tag data">2M+ EHR Records</span>
+  <span class="project-tag status-active">Revise & Resubmit — PLoS ONE</span>
+  <p>Evaluated COVID-19 mortality disparities before and after vaccine availability among people with HIV in Florida using a 2M+ record EHR-linked statewide administrative registry. Applied difference-in-differences with inverse probability weighting and propensity score methods to estimate the causal effect of vaccine availability on mortality gaps across demographic and clinical subgroups.</p>
+</div>
+
+<div class="project-card">
+  <h3>Aim 2 — Spatial Co-Occurrence of HIV and COVID-19 Hotspots in Florida</h3>
+  <span class="project-tag">Spatial Epidemiology</span>
+  <span class="project-tag methods">Getis-Ord Gi*</span>
+  <span class="project-tag methods">Firth Logistic Regression</span>
+  <span class="project-tag methods">LISA</span>
+  <span class="project-tag status-active">Under Review — Health and Place</span>
+  <p>Identified geographic co-occurrence of HIV and COVID-19 hotspots across Florida counties using Getis-Ord Gi* hotspot analysis and Local Indicators of Spatial Association (LISA). Applied Firth logistic regression for rare-event outcomes to examine individual and community-level determinants of hotspot co-occurrence. Produced county-level maps using ArcGIS Pro and R spatial packages.</p>
+</div>
+
+<div class="project-card">
+  <h3>Aim 3 — County-Level COVID-19 Prevention Policies and Incidence Among People With and Without HIV</h3>
+  <span class="project-tag">Policy Analysis</span>
+  <span class="project-tag methods">Longitudinal Trend Analysis</span>
+  <span class="project-tag methods">Panel Data</span>
+  <span class="project-tag data">County/Day Structure</span>
+  <span class="project-tag status-active">In Preparation</span>
+  <p>Examined associations between county-level COVID-19 prevention strategies and COVID-19 incidence trends among people with and without HIV, using a county-by-day panel data structure with policy indicator variables. Integrated surveillance data, ACS demographic variables, Social Vulnerability Index, RUCA codes, and vaccination coverage into a comprehensive analytic dataset.</p>
+</div>
+
+<h2 class="section-heading">Collaborative Research</h2>
+
+<div class="project-card">
+  <h3>Project D.A.I.L.Y. — Daily Adherence in Latino Youth Living with HIV</h3>
+  <span class="project-tag">Behavioral Epidemiology</span>
+  <span class="project-tag methods">EMA</span>
+  <span class="project-tag methods">SEM</span>
+  <span class="project-tag methods">Causal Bayesian Networks</span>
+  <p>Co-designed, coded, and analyzed the Phase 2 baseline questionnaire for Project D.A.I.L.Y., a behavioral epidemiology study of ART adherence among Latino sexual minority men with HIV. The survey instrument incorporated ten validated PRO measures including the TSRQ, HIV-ASES, Brief COPE, CES-D, GAD-7, and HIV Stigma scales. Applied Ecological Momentary Assessment methodology and Structural Equation Modeling to characterize psychosocial barriers to adherence. Co-authored two peer-reviewed publications.</p>
+</div>
+
+<div class="project-card">
+  <h3>Patient-Provider Relationships and HIV Viral Suppression</h3>
+  <span class="project-tag">Causal Bayesian Networks</span>
+  <span class="project-tag methods">DAGs</span>
+  <span class="project-tag data">EHR Cohort</span>
+  <p>Led statistical analyses using Causal Bayesian Networks and directed acyclic graphs to assess the effect of patient-provider relationship quality on HIV viral suppression in EHR-linked cohorts in Miami-Dade County. Published in AIDS and Behavior (2024).</p>
+</div>
+
+<div class="project-card">
+  <h3>Nonfatal Opioid Overdose Surveillance — Florida COVID-19 Context</h3>
+  <span class="project-tag">Surveillance Analytics</span>
+  <span class="project-tag methods">Trend Analysis</span>
+  <span class="project-tag data">Florida Registry</span>
+  <p>Analyzed trends in nonfatal opioid-related overdoses before and during the COVID-19 pandemic in Florida using statewide surveillance data. Published in Preventive Medicine Reports (2023).</p>
+</div>
+
+<h2 class="section-heading">Open-Source Technical Projects</h2>
+
+<div class="project-card">
+  <h3>Fisher's Exact Test — Interactive Tutorial</h3>
+  <span class="project-tag methods">R</span>
+  <span class="project-tag methods">Quarto</span>
+  <span class="project-tag">Statistical Education</span>
+  <p>A published Quarto tutorial demonstrating Fisher's Exact Test for small sample contingency table analysis, with annotated R code, worked examples, and interpretation guidance.</p>
+  <a class="project-link" href="https://tendaig.quarto.pub/fishers-exact-test-summary/Fishersexactest.html" target="_blank">View Tutorial</a>
+</div>
+
+<div class="project-card">
+  <h3>Two-Sample T-Test — Interactive Tutorial</h3>
+  <span class="project-tag methods">R</span>
+  <span class="project-tag methods">Quarto</span>
+  <span class="project-tag">Statistical Education</span>
+  <p>A published Quarto tutorial covering two-sample t-test methodology, assumptions, implementation in R, and interpretation for public health applications.</p>
+  <a class="project-link" href="https://tendaig.quarto.pub/two-sample-t-test/Two_sample_t.html" target="_blank">View Tutorial</a>
+</div>
+
+<div class="project-card">
+  <h3>Random Intercept Model — Collaborative Tutorial</h3>
+  <span class="project-tag methods">R</span>
+  <span class="project-tag methods">Quarto</span>
+  <span class="project-tag">Multilevel Modeling</span>
+  <p>Co-contributed to a collaborative R health blog tutorial on random intercept models for multilevel data, part of the "How to Health Science in R" open-source series.</p>
+  <a class="project-link" href="https://anbrav0.github.io/R-health-blog/RandomInterceptModel.html" target="_blank">View Tutorial</a>
+  <a class="project-link outline" href="https://anbrav0.github.io/R-health-blog/" target="_blank">Full Blog</a>
+</div>
+
+<div class="project-card">
+  <h3>Interactive Data Dashboard</h3>
+  <span class="project-tag methods">R</span>
+  <span class="project-tag">Data Visualization</span>
+  <span class="project-tag methods">Netlify</span>
+  <p>An interactive public health data visualization dashboard deployed via Netlify.</p>
+  <a class="project-link" href="https://gilded-parfait-f74fd5.netlify.app/" target="_blank">View Dashboard</a>
+</div>
+```
