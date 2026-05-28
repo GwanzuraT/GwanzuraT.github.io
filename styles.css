@@ -1,0 +1,33 @@
+/* Global styles for Tendai Gwanzura portfolio site */
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+}
+
+/* Navbar adjustments */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+/* Main content padding */
+.content {
+  padding-top: 1rem;
+}
+
+/* Link color consistency */
+a {
+  color: #1A3A6A;
+}
+
+a:hover {
+  color: #2C5F8A;
+}
+
+/* Footer */
+.nav-footer {
+  background: #f8fafc;
+  border-top: 1px solid #e2e8f0;
+  font-size: 0.85rem;
+  color: #666;
+}
