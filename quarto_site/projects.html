@@ -225,12 +225,12 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="project-card">
   <h3 class="anchored">Aim 1 — COVID-19 Mortality Disparities and Vaccine Availability Among People with HIV in Florida</h3>
-  <span class="project-tag">Causal Inference</span>
-  <span class="project-tag methods">Difference-in-Differences</span>
-  <span class="project-tag methods">IPW</span>
+  <span class="project-tag">Survival Analysis</span>
+  <span class="project-tag methods">Subdistribution Cox Hazard</span>
+  <span class="project-tag methods">Multilevel Analysis</span>
   <span class="project-tag data">2M+ EHR Records</span>
   <span class="project-tag status-active">Revise &amp; Resubmit — PLoS ONE</span>
-  <p>Evaluated COVID-19 mortality disparities before and after vaccine availability among people with HIV in Florida using a 2M+ record EHR-linked statewide administrative registry. Applied difference-in-differences with inverse probability weighting and propensity score methods to estimate the causal effect of vaccine availability on mortality gaps across demographic and clinical subgroups.</p>
+  <p>Evaluated COVID-19 mortality disparities before and after vaccine availability among people with HIV in Florida using a 2M+ record EHR-linked statewide administrative registry. Applied subdistribution Cox hazard models and multilevel analysis to characterize mortality disparities across demographic and clinical subgroups before and after vaccine availability.</p>
 </div>
 
 <div class="project-card">
@@ -238,9 +238,9 @@ ul.task-list li input[type="checkbox"] {
   <span class="project-tag">Spatial Epidemiology</span>
   <span class="project-tag methods">Getis-Ord Gi*</span>
   <span class="project-tag methods">Firth Logistic Regression</span>
-  <span class="project-tag methods">LISA</span>
+  <span class="project-tag methods">ArcGIS Pro</span>
   <span class="project-tag status-active">Under Review — Health and Place</span>
-  <p>Identified geographic co-occurrence of HIV and COVID-19 hotspots across Florida counties using Getis-Ord Gi* hotspot analysis and Local Indicators of Spatial Association (LISA). Applied Firth logistic regression for rare-event outcomes to examine individual and community-level determinants of hotspot co-occurrence. Produced county-level maps using ArcGIS Pro and R spatial packages.</p>
+  <p>Identified geographic co-occurrence of HIV and COVID-19 hotspots across Florida ZIP codes using Getis-Ord Gi* hotspot analysis. Applied Firth logistic regression for rare-event outcomes to examine individual and community-level determinants of hotspot co-occurrence. Produced ZIP code-level maps using ArcGIS Pro.</p>
 </div>
 
 <div class="project-card">
@@ -261,7 +261,7 @@ ul.task-list li input[type="checkbox"] {
   <span class="project-tag methods">EMA</span>
   <span class="project-tag methods">SEM</span>
   <span class="project-tag methods">Causal Bayesian Networks</span>
-  <p>Co-designed, coded, and analyzed the Phase 2 baseline questionnaire for Project D.A.I.L.Y., a behavioral epidemiology study of ART adherence among Latino sexual minority men with HIV. The survey instrument incorporated ten validated PRO measures including the TSRQ, HIV-ASES, Brief COPE, CES-D, GAD-7, and HIV Stigma scales. Applied Ecological Momentary Assessment methodology and Structural Equation Modeling to characterize psychosocial barriers to adherence. Co-authored two peer-reviewed publications.</p>
+  <p>Coded and analyzed the Phase 2 baseline questionnaire for Project D.A.I.L.Y., a behavioral epidemiology study of ART adherence among Latino sexual minority men with HIV. The survey instrument incorporated ten validated PRO measures including the TSRQ, HIV-ASES, Brief COPE, CES-D, GAD-7, and HIV Stigma scales. Applied Ecological Momentary Assessment methodology and Structural Equation Modeling to characterize psychosocial barriers to adherence. Co-authored two peer-reviewed publications.</p>
 </div>
 
 <div class="project-card">
@@ -269,7 +269,7 @@ ul.task-list li input[type="checkbox"] {
   <span class="project-tag">Causal Bayesian Networks</span>
   <span class="project-tag methods">DAGs</span>
   <span class="project-tag data">EHR Cohort</span>
-  <p>Led statistical analyses using Causal Bayesian Networks and directed acyclic graphs to assess the effect of patient-provider relationship quality on HIV viral suppression in EHR-linked cohorts in Miami-Dade County. Published in AIDS and Behavior (2024).</p>
+  <p>Co-analyzed data using Causal Bayesian Networks and directed acyclic graphs to assess the effect of patient-provider relationship quality on HIV viral suppression in EHR-linked cohorts in Miami-Dade County. Published in AIDS and Behavior (2024).</p>
 </div>
 
 <div class="project-card">
@@ -278,6 +278,28 @@ ul.task-list li input[type="checkbox"] {
   <span class="project-tag methods">Trend Analysis</span>
   <span class="project-tag data">Florida Registry</span>
   <p>Analyzed trends in nonfatal opioid-related overdoses before and during the COVID-19 pandemic in Florida using statewide surveillance data. Published in Preventive Medicine Reports (2023).</p>
+</div>
+
+<h2 class="section-heading anchored">Data Science Projects</h2>
+
+<div class="project-card">
+  <h3 class="anchored">Brain Tumor Detection in MRI Images Using Deep Learning</h3>
+  <span class="project-tag methods">TensorFlow</span>
+  <span class="project-tag methods">Keras</span>
+  <span class="project-tag methods">CNN</span>
+  <span class="project-tag">Anvil Dashboard</span>
+  <span class="project-tag status-active">DS4A 2021 Cohort</span>
+  <p>Team 47 project developing a convolutional neural network using TensorFlow and Keras to classify brain MRI images as tumor or no tumor, trained on 6,123 standardized images from Kaggle, achieving 97.79% accuracy after 10 training epochs. Built and deployed a live interactive dashboard using the Anvil platform enabling remote MRI image upload with real-time tumor probability output.</p>
+  <a class="project-link" href="https://dmx42ooxifccjbg6.anvil.app/QIN27DNNIXKIUE2ZXJIN6F4V" target="_blank">View Dashboard</a>
+</div>
+
+<div class="project-card">
+  <h3 class="anchored">Organophosphate Pesticide Exposure Predictors in the US (1999-2020)</h3>
+  <span class="project-tag methods">LASSO Regression</span>
+  <span class="project-tag methods">Python</span>
+  <span class="project-tag data">NHANES</span>
+  <span class="project-tag status-active">DS4W 2022 Cohort</span>
+  <p>Team 29 project analyzing NHANES federal health survey data (~60,000 individuals, 1999-2020) to identify variables associated with organophosphate pesticide exposure. Applied LASSO regression to combined demographic, dietary, and laboratory data across approximately 60,000 individuals. Found urine creatinine and blood lipid values as key predictors. Proposed use of these biomarkers for continuous monitoring in agricultural populations.</p>
 </div>
 
 <h2 class="section-heading anchored">Open-Source Technical Projects</h2>
@@ -305,17 +327,17 @@ ul.task-list li input[type="checkbox"] {
   <span class="project-tag methods">R</span>
   <span class="project-tag methods">Quarto</span>
   <span class="project-tag">Multilevel Modeling</span>
-  <p>Co-contributed to a collaborative R health blog tutorial on random intercept models for multilevel data, part of the "How to Health Science in R" open-source series.</p>
+  <p>Contributed to a collaborative open-source tutorial series covering multilevel modeling with random intercept models in R for health science researchers.</p>
   <a class="project-link" href="https://anbrav0.github.io/R-health-blog/RandomInterceptModel.html" target="_blank">View Tutorial</a>
   <a class="project-link outline" href="https://anbrav0.github.io/R-health-blog/" target="_blank">Full Blog</a>
 </div>
 
 <div class="project-card">
-  <h3 class="anchored">Interactive Data Dashboard</h3>
+  <h3 class="anchored">Generalized Linear Model: Using Count Data</h3>
   <span class="project-tag methods">R</span>
   <span class="project-tag">Data Visualization</span>
-  <span class="project-tag methods">Netlify</span>
-  <p>An interactive public health data visualization dashboard deployed via Netlify.</p>
+  <span class="project-tag methods">GLM</span>
+  <p>An interactive tutorial and dashboard demonstrating Generalized Linear Models for count data analysis, including Poisson and negative binomial regression, deployed via Netlify.</p>
   <a class="project-link" href="https://gilded-parfait-f74fd5.netlify.app/" target="_blank">View Dashboard</a>
 </div>
 
